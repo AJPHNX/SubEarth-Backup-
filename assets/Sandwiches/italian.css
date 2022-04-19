@@ -27,7 +27,7 @@
     width:100%;
     height:80%;
 }
-#hamLayer2 {
+#pepperoniLayer {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -35,11 +35,11 @@
     width: 100%;
     height: 100%;
     z-index: 9;
-    top: 13px;
+    top: 20px;
     left: 0px;
     visibility: hidden;
 }
-#hamSlice4 {
+#pepperoniSlice1 {
     position: relative;
     top: 0px;
     padding: 0px;
@@ -47,18 +47,120 @@
     z-index: 5;
     /* visibility: hidden; */
 }
-#hamSlice5 {
+#pepperoniSlice2 {
     position: relative;
     display: inline-flex;
     z-index: 6; 
-    top: -19px;
+    top: -28px;
     /* visibility: hidden; */
 }
-#hamSlice6 {
+#pepperoniSlice3 {
     position: relative;
     display: inline-flex;
     z-index: 7; 
-    top: -31px;
+    top: -50px;
+    /* visibility: hidden; */
+}
+#salamiLayer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    top: 20px;
+    left: 0px;
+    visibility: hidden;
+}
+#salamiSlice1 {
+    position: relative;
+    top: 0px;
+    padding: 0px;
+    margin: 0;
+    z-index: 5;
+    /* visibility: hidden; */
+}
+#salamiSlice2 {
+    position: relative;
+    display: inline-flex;
+    z-index: 6; 
+    top: -28px;
+    /* visibility: hidden; */
+}
+#salamiSlice3 {
+    position: relative;
+    display: inline-flex;
+    z-index: 7; 
+    top: -50px;
+    /* visibility: hidden; */
+}
+#cappLayer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    top: 20px;
+    left: 0px;
+    visibility: hidden;
+}
+#cappSlice1 {
+    position: relative;
+    top: 0px;
+    padding: 0px;
+    margin: 0;
+    z-index: 5;
+    /* visibility: hidden; */
+}
+#cappSlice2 {
+    position: relative;
+    display: inline-flex;
+    z-index: 6; 
+    top: -28px;
+    /* visibility: hidden; */
+}
+#cappSlice3 {
+    position: relative;
+    display: inline-flex;
+    z-index: 7; 
+    top: -50px;
+    /* visibility: hidden; */
+}
+#proscLayer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    top: 8px;
+    left: 0px;
+    visibility: hidden;
+}
+#proscSlice1 {
+    position: relative;
+    top: 0px;
+    padding: 0px;
+    margin: 0;
+    z-index: 5;
+    /* visibility: hidden; */
+}
+#proscSlice2 {
+    position: relative;
+    display: inline-flex;
+    z-index: 6; 
+    top: -17px;
+    /* visibility: hidden; */
+}
+#proscSlice3 {
+    position: relative;
+    display: inline-flex;
+    z-index: 7; 
+    top: -35px;
     /* visibility: hidden; */
 }
 #hamLayer {

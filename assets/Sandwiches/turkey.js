@@ -3,8 +3,9 @@ document.addEventListener('click',(e)=>{
     console.log(element)
 })
 const provDivs = ['provoloneSlice1','provoloneSlice2','provoloneSlice3']
-const hamDivs = ['hamSlice1','hamSlice2','hamSlice3']
-const ham2Divs = ['hamSlice4','hamSlice5','hamSlice6']
+// const hamDivs = ['hamSlice1','hamSlice2','hamSlice3']
+const turkeyDivs = ['turkeySlice1','turkeySlice2','turkeySlice3']
+const turkey2Divs = ['turkeySlice4','turkeySlice5','turkeySlice6']
 const breadTopDiv = ['breadTop']
 // async function sleep(time){
 //     await setTimeout(()=>{},
@@ -25,7 +26,7 @@ async function slice(objs){
         // setTimeout(()=>{
             // let id = objs[i]
             
-            await sleep(700+(index*300))
+            await sleep(750+(index*300))
             console.log(slice)
             let currentSlice = document.getElementById(slice)
             currentSlice.style.visibility ='visible'
@@ -43,8 +44,8 @@ function breadfinish(){
 }
 async function demoSandwich(){
     await slice(provDivs)
-    await slice(hamDivs)
-    await slice(ham2Divs)
+    await slice(turkeyDivs)
+    await slice(turkey2Divs)
     await slice(breadTopDiv)
 }
 demoSandwich()

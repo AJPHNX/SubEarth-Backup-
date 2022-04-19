@@ -4,7 +4,8 @@ document.addEventListener('click',(e)=>{
 })
 const provDivs = ['provoloneSlice1','provoloneSlice2','provoloneSlice3']
 const hamDivs = ['hamSlice1','hamSlice2','hamSlice3']
-const ham2Divs = ['hamSlice4','hamSlice5','hamSlice6']
+const proscDivs = ['proscSlice1','proscSlice2','proscSlice3']
+const cappDivs = ['cappSlice1','cappSlice2','cappSlice3']
 const breadTopDiv = ['breadTop']
 // async function sleep(time){
 //     await setTimeout(()=>{},
@@ -44,7 +45,8 @@ function breadfinish(){
 async function demoSandwich(){
     await slice(provDivs)
     await slice(hamDivs)
-    await slice(ham2Divs)
+    await slice(proscDivs)
+    await slice(cappDivs)
     await slice(breadTopDiv)
 }
 demoSandwich()

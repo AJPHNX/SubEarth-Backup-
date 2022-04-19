@@ -3,6 +3,7 @@ document.addEventListener('click',(e)=>{
     console.log(element)
 })
 const provDivs = ['provoloneSlice1','provoloneSlice2','provoloneSlice3']
+const swissDivs = ['swissSlice1','swissSlice2','swissSlice3']
 const hamDivs = ['hamSlice1','hamSlice2','hamSlice3']
 const ham2Divs = ['hamSlice4','hamSlice5','hamSlice6']
 const breadTopDiv = ['breadTop']
@@ -43,8 +44,7 @@ function breadfinish(){
 }
 async function demoSandwich(){
     await slice(provDivs)
-    await slice(hamDivs)
-    await slice(ham2Divs)
+    await slice(swissDivs)
     await slice(breadTopDiv)
 }
 demoSandwich()

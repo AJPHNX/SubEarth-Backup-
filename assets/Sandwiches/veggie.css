@@ -61,7 +61,7 @@
     top: -31px;
     /* visibility: hidden; */
 }
-#hamLayer {
+#swissLayer {
     position: absolute;
     display: flex;
     justify-content: space-evenly;
@@ -73,7 +73,7 @@
     left: 0px;
     /* visibility: hidden; */
 }
-#hamSlice1 {
+#swissSlice1 {
     position: relative;
     /* display: inline-flex; */
     top: 0;
@@ -81,30 +81,30 @@
     margin: 0;
     visibility: hidden;
 }
-#hamSlice2 {
+#swissSlice2 {
     position: relative;
     display: inline-flex;
     z-index: 6; 
     top: -21px;
     visibility: hidden;
 }
-#hamSlice3 {
+#swissSlice3 {
     position: relative;
     display: inline-flex;
     z-index: 7; 
     top: -42px;
     visibility: hidden;
 }
-#hamLayer  img{
+#swissLayer  img{
     height: 190px;
     width: auto;
 }
 
 #cheeseLayer > img{
-    height: 2000px;
+    height: 200px;
     width: auto;
 }
-#cheeseLayer {
+#provoloneLayer {
     position: relative;
     display: flex;
     flex-direction: column;
